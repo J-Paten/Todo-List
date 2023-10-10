@@ -1,0 +1,64 @@
+.bg-light-grey {
+    background-color: lightgrey;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    font-family: Arial, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.inline {
+    display: inline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 50vh;
+    width: 100vw;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 0.9rem;
+}
+
+.btn:hover {
+    background-color: dodgerblue;
+    color: lightgrey;
+}
+
+.list-item {
+    font-size: 1.2rem;
+    color: black;
+    font-family: Arial, serif;
+}
+
+.search-item {
+    border-radius: 0.9rem;
+    border: none;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.search-item:focus, .btn:focus {
+    border: none;
+}
